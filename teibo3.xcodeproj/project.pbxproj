@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2108FD1D1B0C134B00C24D8F /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2108FD1C1B0C134B00C24D8F /* CustomCell.swift */; };
 		219812391B01870F00136671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219812381B01870F00136671 /* AppDelegate.swift */; };
 		2198123B1B01870F00136671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198123A1B01870F00136671 /* ViewController.swift */; };
 		2198123E1B01870F00136671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2198123C1B01870F00136671 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2108FD1C1B0C134B00C24D8F /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		219812331B01870F00136671 /* teibo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teibo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		219812371B01870F00136671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		219812381B01870F00136671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				219812381B01870F00136671 /* AppDelegate.swift */,
 				2198123A1B01870F00136671 /* ViewController.swift */,
 				2198123C1B01870F00136671 /* Main.storyboard */,
+				2108FD1C1B0C134B00C24D8F /* CustomCell.swift */,
 				2198123F1B01870F00136671 /* Images.xcassets */,
 				219812411B01870F00136671 /* LaunchScreen.xib */,
 				219812361B01870F00136671 /* Supporting Files */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2198123B1B01870F00136671 /* ViewController.swift in Sources */,
+				2108FD1D1B0C134B00C24D8F /* CustomCell.swift in Sources */,
 				219812391B01870F00136671 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +429,7 @@
 				219812541B01870F00136671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		219812551B01870F00136671 /* Build configuration list for PBXNativeTarget "teibo3Tests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				219812571B01870F00136671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -34,13 +34,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
         let CellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCellWithIdentifier(CellIdentifier) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(CellIdentifier) as CustomCell
         
-        let imageView = cell.viewWithTag(100) as UIImageView
-        imageView.image = UIImage(named: "\(indexPath.row+1).png")
-        
-        let textLabel = cell.viewWithTag(101) as UILabel
-        textLabel.text = tableData[indexPath.row]
+        cell.customImageView.image = UIImage(named: "\(indexPath.row+1).png")
+        cell.customLabel.text = tableData[indexPath.row]
         
         return cell
     }
